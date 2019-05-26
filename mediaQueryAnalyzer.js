@@ -23,9 +23,7 @@ html.outerHTML=`
 	<div id=mediaQueriesInfo></div>
 `;
 
-window.addEventListener('load', function() {
-	getTemplatedMediaQueries();
-});
+getTemplatedMediaQueries();
 
 // ----------------------------------------------------------------------------
 // Functions
